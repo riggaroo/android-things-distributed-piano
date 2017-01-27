@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Piano Player</string>
+    <string name="service_id">za.co.riggaroo.androidthings.distributedpiano</string>
+    <string name="google_api_not_connected">Not connected to speaker.</string>
+    <string name="connected_to">Connected to: %s</string>
+</resources>

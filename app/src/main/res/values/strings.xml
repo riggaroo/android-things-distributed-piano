@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Distributed Piano</string>
+    <string name="service_id">za.co.riggaroo.androidthings.distributedpiano</string>
+</resources>

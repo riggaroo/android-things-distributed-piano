@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PianoView">
+        <attr name="octaves" format="integer" />
+        <attr name="first_octave" format="integer" />
+    </declare-styleable>
+</resources>
