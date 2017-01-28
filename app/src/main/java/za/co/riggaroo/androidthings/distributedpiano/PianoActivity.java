@@ -1,16 +1,16 @@
 package za.co.riggaroo.androidthings.distributedpiano;
 
+import android.app.Activity;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import com.google.android.things.contrib.driver.pwmspeaker.Speaker;
 
 import java.io.IOException;
 
-public class PianoActivity extends AppCompatActivity implements PianoContract.View {
+public class PianoActivity extends Activity implements PianoContract.View {
 
     private static final String TAG = "PianoActivity";
     private Speaker speaker;

@@ -153,7 +153,8 @@ class PlayPianoPresenter implements PlayPianoContract.Presenter, GoogleApiClient
     }
 
     /**
-     * The function for calculating the frequency that should be played for a certain note. More information about the formula can be found here:
+     * The function for calculating the frequency that should be played for a certain note.
+     * More information about the formula can be found here: https://en.wikipedia.org/wiki/Piano_key_frequencies
      *
      * @param note The number of the note.
      * @return frequency to play on Piezo.
