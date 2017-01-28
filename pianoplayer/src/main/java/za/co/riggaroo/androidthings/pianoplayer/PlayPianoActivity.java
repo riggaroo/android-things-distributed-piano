@@ -21,8 +21,8 @@ public class PlayPianoActivity extends AppCompatActivity implements PlayPianoCon
         setContentView(R.layout.activity_play_piano);
         presenter = new PlayPianoPresenter(this, getString(R.string.service_id));
 
-        KeyboardView keyboardView = (KeyboardView) findViewById(R.id.piano);
-        ScrollStripView scrollStrip = (ScrollStripView) findViewById(R.id.scrollstrip);
+        KeyboardView keyboardView = (KeyboardView) findViewById(R.id.piano_view);
+        ScrollStripView scrollStrip = (ScrollStripView) findViewById(R.id.scroll_strip);
         scrollStrip.bindKeyboard(keyboardView);
         keyboardView.setMidiListener(new KeyBoardListener() {
             @Override

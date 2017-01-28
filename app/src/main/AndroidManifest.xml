@@ -3,7 +3,6 @@
           package="za.co.riggaroo.androidthings.distributedpiano">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"

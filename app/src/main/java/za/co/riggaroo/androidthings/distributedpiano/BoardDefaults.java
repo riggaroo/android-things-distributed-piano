@@ -38,15 +38,16 @@ class BoardDefaults {
     public static String getPwmPin() {
         switch (getBoardVariant()) {
             case DEVICE_EDISON_ARDUINO:
-                return "IO13";
+                return "IO3";
             case DEVICE_EDISON:
-                return "GP45";
+                return "GP13";
             case DEVICE_RPI3:
                 return "PWM1";
             case DEVICE_NXP:
-                return "GPIO4_IO21";
+                return "PWM7";
             default:
-                throw new IllegalStateException("Unknown Build.DEVICE " + Build.DEVICE);
+                throw new UnsupportedOperationException("Unknown device: " + Build.DEVICE);
         }
     }
+
 }
