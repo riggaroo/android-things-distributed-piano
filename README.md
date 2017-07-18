@@ -5,7 +5,7 @@ The Android Things device has a speaker plugged in to receive and play the notes
 
 This code sample uses Google Nearby API to send notes to the Raspberry Pi 3. Please also note that this has only been tested on a Raspberry Pi 3, but should work on other boards too.
 
-##Setup
+## Setup
 1. Checkout this repository. 
 2. Setup your Raspberry Pi 3 in the following way:
 
@@ -18,7 +18,7 @@ This code sample uses Google Nearby API to send notes to the Raspberry Pi 3. Ple
 
 
 
-#Referenced Libraries/Projects
+## Referenced Libraries/Projects
 1. Google-Samples for the KeyboardView. This repository can be found here: 
 https://github.com/google/music-synthesizer-for-android/
 2. Android Things Drivers for Speaker https://github.com/androidthings/contrib-drivers 
